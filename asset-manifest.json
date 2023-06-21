@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/%7Breact-tic%7D/static/css/main.80a0caa0.css",
-    "main.js": "/%7Breact-tic%7D/static/js/main.7e6c1da2.js",
-    "index.html": "/%7Breact-tic%7D/index.html",
-    "main.80a0caa0.css.map": "/%7Breact-tic%7D/static/css/main.80a0caa0.css.map",
-    "main.7e6c1da2.js.map": "/%7Breact-tic%7D/static/js/main.7e6c1da2.js.map"
+    "main.css": "/react-tic/static/css/main.80a0caa0.css",
+    "main.js": "/react-tic/static/js/main.7e6c1da2.js",
+    "index.html": "/react-tic/index.html",
+    "main.80a0caa0.css.map": "/react-tic/static/css/main.80a0caa0.css.map",
+    "main.7e6c1da2.js.map": "/react-tic/static/js/main.7e6c1da2.js.map"
   },
   "entrypoints": [
     "static/css/main.80a0caa0.css",
