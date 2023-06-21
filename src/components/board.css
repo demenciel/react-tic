@@ -1,0 +1,64 @@
+.board {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(112, 112, 112, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.cross {
+    position: relative;
+    width: 15vmin;  
+    height: 10vmin; 
+  }
+  
+  .cross::before,
+  .cross::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 6px;
+    border-radius: 15px;
+    background: black;
+    top: 50%;
+  }
+  
+  .cross::before {
+      transform: rotate(45deg);
+      animation: drawLine 0.5s forwards;
+  }
+  
+  .cross::after {
+      transform: rotate(-45deg);
+      animation: drawLine 0.5s 0.5s forwards;
+  }
+  
+  .circle {
+    content: '';
+    position: relative;
+    width: 15vmin;
+    height: 15vmin; 
+    margin-left: 0%;
+    margin-top: 0%;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: drawCircle 0.5s forwards;
+  }
+
+  @keyframes drawLine {
+    0% { width: 0; }
+    100% { width: 100%; }
+  }
+  
+  @keyframes drawCircle {
+    0% { border-width: 0; }
+    100% { border-width: 6px; }
+  }
+
+.winMessage {
+  background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(112, 112, 112, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
