@@ -8,8 +8,8 @@
 
 .cross {
     position: relative;
-    width: 15vmin;  
-    height: 10vmin; 
+    width: 10vmin;  
+    height: 5vmin; 
   }
   
   .cross::before,
@@ -19,7 +19,7 @@
     width: 0;
     height: 6px;
     border-radius: 15px;
-    background: black;
+    background: white;
     top: 50%;
   }
   
@@ -36,11 +36,11 @@
   .circle {
     content: '';
     position: relative;
-    width: 15vmin;
-    height: 15vmin; 
+    width: 10vmin;
+    height: 10vmin; 
     margin-left: 0%;
     margin-top: 0%;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 50%;
     animation: drawCircle 0.5s forwards;
   }

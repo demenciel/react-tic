@@ -19,7 +19,7 @@ export const Win = (props) => {
             <h1 className='font-bold text-3xl sm:text-6xl text-sky-500'>Game's over !</h1>
             <button 
               onClick={newGameClick} 
-              className='rounded border border-pink px-8 py-3 bg-sky-500 text-white font-medium'
+              className='bg-[#8EC5FC] rounded-lg px-7 py-4 shadow-inner hover:shadow-lg text-white'
             >
               New Game
             </button>

@@ -5,7 +5,7 @@ import './board.css';
 
 
 export const Cell = (props) => {
-  const { playerTurn, updateGame, game } = useContext(TurnContext);
+  const { playerTurn, updateGame, game, userChoice } = useContext(TurnContext);
 
   const [cross, setCross] = useState(false);
   const [circle, setCircle] = useState(false);
@@ -27,6 +27,9 @@ export const Cell = (props) => {
   function handleClick() {
     if (playerTurn % 2 === 0 && game[props.row][props.cell] === null) {
       updateGame("x", props.row, props.cell);
+    }
+    if (userChoice === false && playerTurn % 2 !== 0 && game[props.row][props.cell] === null) {
+      updateGame("o", props.row, props.cell);
     }
   };
 
