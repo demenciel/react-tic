@@ -12,7 +12,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://demenciel.github.io/{react-tic}",
+  "homepage": "http://demenciel.github.io/react-tic",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
